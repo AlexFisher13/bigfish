@@ -13,7 +13,7 @@
 
     <!-- Обрабатывает HTTP-запросы GET для / resources / **, эффективно используя
     Статические ресурсы в каталоге $ {webappRoot} / resources -->
-    <mvc:resources mapping="/resources/**" location="/resources" />
+    <mvc:resources mapping="/resources/**" location="/resources/" />
 
     <context:component-scan base-package="com.fish" />
 
